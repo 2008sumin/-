@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>학교 시간표</title>
+    <style>
+        body {
+            font-family: 'Malgun Gothic', sans-serif;
+            background-color: blue;
+            color: black;
+            padding: 20px;
+            font-weight: bold;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: yellow;
+            color: black;
+        }
+
+        caption {
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+
+        th, td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 8px;
+            background-color: yellow;
+        }
+
+        thead th {
+            background-color: yellow;
+        }
+
+        .gyosi {
+            background-color: yellow;
+        }
+
+        .lunch {
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <h1>학교 시간표</h1>
+    <table>
+        <caption>학교 시간표</caption>
+        <thead>
+            <tr>
+                <th>교시 요일</th>
+                <th>월</th>
+                <th>화</th>
+                <th>수</th>
+                <th>목</th>
+                <th>금</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th class="gyosi">1교시<br>(09:00 ~ 09:50)</th>
+                <td>시스프</td>
+                <td>문학</td>
+                <td>영I</td>
+                <td>시스프</td>
+                <td>한국</td>
+            </tr>
+            <tr>
+                <th class="gyosi">2교시<br>(10:00 ~ 10:50)</th>
+                <td>영I</td>
+                <td>응프개</td>
+                <td>문학</td>
+                <td>시스프</td>
+                <td>응프개</td>
+            </tr>
+            <tr>
+                <th class="gyosi">3교시<br>(11:00 ~ 11:50)</th>
+                <td>응프개</td>
+                <td>체탐</td>
+                <td>응프개</td>
+                <td>영I</td>
+                <td>시스프</td>
+            </tr>
+            <tr>
+                <th class="gyosi">4교시<br>(12:00 ~ 12:50)</th>
+                <td>응프개</td>
+                <td>한국</td>
+                <td>시스프</td>
+                <td>문학</td>
+                <td>시스프</td>
+            </tr>
+            <tr class="lunch">
+                <th>점심시간<br>(12:50 ~ 13:50)</th>
+                <td colspan="5">🍱 점심시간 🍱</td>
+            </tr>
+            <tr>
+                <th class="gyosi">5교시<br>(13:50 ~ 14:40)</th>
+                <td>자료</td>
+                <td>시스프</td>
+                <td>미술</td>
+                <td>시스프</td>
+                <td>창체</td>
+            </tr>
+            <tr>
+                <th class="gyosi">6교시<br>(14:50 ~ 15:40)</th>
+                <td>자료</td>
+                <td>미술</td>
+                <td>자율</td>
+                <td>한국</td>
+                <td>창체</td>
+            </tr>
+            <tr>
+                <th class="gyosi">7교시<br>(15:50 ~ 16:40)</th>
+                <td>응프개</td>
+                <td></td>
+                <td></td>
+                <td>응프개</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
